@@ -35,7 +35,7 @@ manipulation, and chargebacks. These vulnerabilities create gaps in detection, a
 customer confidence in the platform.
 
 STADIOalot’s vendor ecosystem further complicates the challenge. With over 41,000 products listed, sellers vary widely in quality. Some deliver counterfeit goods, 
-others fail to ship on time, and many generate customer complaints. While STADIOalot monitors these issues, its approach remains reactive — addressing fraud and 
+others fail to ship on time, and many generate customer complaints. While STADIOalot monitors these issues, its approach remains reactive, addressing fraud and 
 poor vendor practices only after they occur. This reactive stance not only weakens operational resilience but also threatens the company’s long‑term 
 sustainability in the competitive online retail sector.
 
