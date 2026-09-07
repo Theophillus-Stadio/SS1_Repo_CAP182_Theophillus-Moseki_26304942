@@ -24,6 +24,10 @@ identify suspicious activity i.e. Fraudulent activity.
 Proof of AI usage:
 https://claude.ai/share/0e750b80-9499-415d-8523-cc6d23996840
 
+
+
+
+
 # Part B
 Despite the availability of transactional and marketplace data, fraudulent activity continues to undermine STADIOalot’s margins and customer trust. 
 Existing rule based systems fail to anticipate evolving fraud tactics, leaving gaps in detection. It remains unclear whether flagged orders, 
@@ -34,39 +38,16 @@ with the goal of informing proactive fraud prevention strategies and strengtheni
 Proof of AI usage
 https://claude.ai/share/fcc906bb-b821-4359-af2f-ead1c7d912ae
 
+
+
+
+
 # Part E
-Risks
-1.	Data quality risk – Incomplete, inconsistent, or noisy transactional data may reduce model accuracy.
-2.	Bias risk – Models may unintentionally discriminate against certain sellers or customers.
-3.	Scalability risk – Fraud detection models may not perform well as transaction volumes grow.
-4.	False negatives risk – Fraudulent transactions may slip through undetected, undermining trust.
-5.	Integration risk – Difficulty in embedding fraud detection models into STADIOalot’s existing systems.
-
-Actions
-1.	Data cleaning and preprocessing - Ensure datasets are accurate, consistent, and complete.
-2.	Model validation – Test models with cross validation to reduce bias and overfitting.
-3.	Continuous monitoring – Track fraud detection performance and retrain models regularly.
-4.	Stakeholder engagement – Collaborate with fraud analysts, IT teams, and management for smooth adoption.
-5.	Pilot testing – Deploy models in a controlled environment before full rollout.
-
-Assumptions
-1.	Transactional and marketplace data will be available and accessible.
-2.	Fraudulent activity is present in sufficient volume to train models.
-3.	Anomaly detection and predictive modelling are suitable techniques for fraud detection.
-4.	STADIOalot management will support data driven fraud prevention strategies.
-5.	Customers and sellers will continue to generate behavioral data that can be analyzed.
-
-Issues
-1.	Data privacy concerns – Handling customer demographics and transaction histories must comply with regulations.
-2.	Vendor resistance – Sellers flagged as high risk may dispute findings, creating operational challenges.
-
-Decisions
-1.	Choice of algorithms – Deciding whether anomaly detection, predictive modelling, or hybrid approaches are most effective.
-2.	Implementation strategy – Determining whether fraud detection will run in real time or as periodic batch analysis.
-
-Dependencies
-1.	Data availability – Access to transactional, customer, and marketplace datasets.
-2.	Technical infrastructure – Computing resources to run machine learning models.
-3.	Management support – Approval for fraud detection initiatives.
-4.	Regulatory compliance – Adherence to data protection and financial regulations.
-5.	Vendor cooperation – Sellers providing accurate product and delivery information.
+| RAAID | Description |       
+| --- | --- |
+| Risks | 1. Poor data quality – STADIOalot's transactional logs may contain missing or inconsistent records, reducing fraud model accuracy.<br>2. Model bias – Fraud detection may unfairly flag certain sellers or customers, damaging STADIOalot's reputation.<br>3. Scalability challenges – As STADIOalot grows, fraud models may struggle to handle millions of transactions efficiently.<br>4. False negatives – Fraudulent orders slipping through could erode customer trust and margins.<br>5. Integration difficulties – Embedding fraud models into STADIOalot's existing e commerce platform may disrupt operations. |
+| Actions | 1. Data cleaning – Standardize STADIOalot's order, payment, and seller datasets before analysis.<br>2. Bias testing – Validate models to ensure fair treatment of sellers and customers.<br>3. Continuous monitoring – Retrain fraud models regularly as STADIOalot's transaction volume grows.<br>4. Stakeholder engagement – Work with STADIOalot's fraud analysts, IT, and vendor management teams.<br>5. Pilot deployment – Test fraud models on a subset of STADIOalot's marketplace before full rollout. |
+| Assumptions | 1. STADIOalot's transactional and marketplace data will be accessible for analysis.<br>2. Fraudulent activity is present in sufficient volume to train models.<br>3. Anomaly detection and predictive modelling are suitable for STADIOalot's fraud challenges.<br>4. STADIOalot management supports data driven fraud prevention aligned with the 2030 strategy.<br>5. Customers and sellers will continue generating behavioral data that can be leveraged. |
+| Issues | 1. Data privacy – Handling STADIOalot's customer demographics must comply with South African data protection laws.<br>2. Vendor resistance – Sellers flagged as high risk may dispute findings, creating operational and reputational challenges. |
+| Decisions | 1. Algorithm choice – Decide whether Isolation Forest, Random Forest, or hybrid models best fit STADIOalot's fraud detection needs.<br>2. Implementation strategy – Determine if fraud detection should run in real time during checkout or as batch analysis after transactions. |
+| Dependencies | 1. Data availability – Access to STADIOalot's transactional, customer, and marketplace datasets.<br>2. Technical infrastructure – Adequate computing resources to run fraud detection models at scale.<br>3. Management approval – STADIOalot leadership must endorse fraud detection initiatives.<br>4. Regulatory compliance – Adherence to South African financial and data protection regulations.<br>5. Vendor cooperation – Sellers must provide accurate product and delivery information to support fraud analysis. |
