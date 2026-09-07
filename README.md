@@ -29,11 +29,22 @@ https://claude.ai/share/0e750b80-9499-415d-8523-cc6d23996840
 
 
 # Part B
-Despite the availability of transactional and marketplace data, fraudulent activity continues to undermine STADIOalot’s margins and customer trust. 
-Existing rule based systems fail to anticipate evolving fraud tactics, leaving gaps in detection. It remains unclear whether flagged orders, 
-customer demographics, and transaction histories can be leveraged to uncover hidden patterns that reliably indicate fraudulent behaviour. 
-Therefore, this study aims to examine the effectiveness of anomaly detection and predictive modelling techniques in identifying suspicious activity, 
-with the goal of informing proactive fraud prevention strategies and strengthening platform integrity.
+Despite the availability of transactional and marketplace data, fraudulent activity continues to undermine STADIOalot’s profit margins and customer trust. 
+Current rule‑based systems, while useful for basic monitoring, fail to anticipate evolving fraud tactics such as phishing, smishing, identity theft, marketplace 
+manipulation, and chargebacks. These vulnerabilities create gaps in detection, allowing fraudsters to exploit weaknesses and erode both financial performance and 
+customer confidence in the platform.
+
+STADIOalot’s vendor ecosystem further complicates the challenge. With over 41,000 products listed, sellers vary widely in quality. Some deliver counterfeit goods, 
+others fail to ship on time, and many generate customer complaints. While STADIOalot monitors these issues, its approach remains reactive — addressing fraud and 
+poor vendor practices only after they occur. This reactive stance not only weakens operational resilience but also threatens the company’s long‑term 
+sustainability in the competitive online retail sector.
+
+It remains unclear whether transactional datasets, customer demographics, and seller performance histories can be leveraged to uncover hidden fraud patterns that 
+reliably indicate suspicious behavior. Traditional systems lack the sophistication to integrate these diverse data sources into proactive detection strategies.
+
+Therefore, this study aims to examine the effectiveness of anomaly detection and predictive modelling techniques applied to STADIOalot’s flagged orders and 
+transaction histories. By investigating whether these methods can identify fraudulent activity earlier and more accurately, the study seeks to provide evidence 
+that informs decision‑makers, supports STADIOalot’s 2030 strategy of maintaining a clean marketplace, reduces financial losses, and strengthens customer trust.
 
 Proof of AI usage
 https://claude.ai/share/fcc906bb-b821-4359-af2f-ead1c7d912ae
