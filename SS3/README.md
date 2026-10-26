@@ -34,3 +34,6 @@ Random seeds are fixed, so results are reproducible. Runtime ≈ 2-3 minutes (CP
 
 ## Headline result
 Hybrid test ROC-AUC 0.513 (95% CI 0.43-0.59), PR-AUC 0.048 (95% CI 0.036-0.069) vs 0.043 random baseline: not distinguishable from chance. Random Forest, NN alone and Isolation Forest alone score the same. The client's order-time fields carry little fraud signal (no geolocation or card ID, rare repeat orders); the notebook reports this transparently and lists the data to request.
+
+# Part C
+https://www.youtube.com/watch?v=AyI_dejldl0
